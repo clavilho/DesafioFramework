@@ -1,0 +1,27 @@
+.wrapper-header {
+    display: flex;
+    background-color: #6610f2;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+}
+.item{
+    margin-right: 1.5rem;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    
+}
+.item a:hover{
+    margin-bottom: 2px solid white;
+    background: #230850;
+    border-radius: 10px;
+}
